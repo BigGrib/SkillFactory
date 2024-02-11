@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb98f713-8189-41e3-9797-9d5f086d8e41" name="Changes" comment="Draw">
+    <list default="true" id="fb98f713-8189-41e3-9797-9d5f086d8e41" name="Changes" comment="Ready 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cross_and_zero.py" afterDir="false" />
     </list>
@@ -77,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707685902689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ready 1">
+      <option name="closed" value="true" />
+      <created>1707689748656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707689748656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Draw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Draw" />
+    <MESSAGE value="Ready 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready 1" />
   </component>
 </project>
