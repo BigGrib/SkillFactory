@@ -24,6 +24,7 @@ class ConvertCurrency:
             amount = float(amount)
         except ValueError:
             raise ConvertionExeption(f'Введено неверное число {amount}')
+
         r = requests.get(f'https://v6.exchangerate-api.com/v6/e2c4c225412b745e174037ed/pair/{quote_ticker}/{base_ticker}/{amount}')
         total = json.loads(r.content)['conversion_result']
         rate = json.loads(r.content)['conversion_rate']

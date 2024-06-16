@@ -10,7 +10,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start', 'help'])
 def start(message: telebot.types.Message):
     text = 'Для начала работы введите команду боту в следующем формате: \n <имя валюты> <количество> <в какую валюту перевести>\
-например:  рубль 10000 доллар\n \
+например:  рубль 10000 доллар \n \
 Чтобы увидеть все доступные валюты введите /values'
     bot.reply_to(message,text)
 # Обрабатывается все документы и аудиозаписи
