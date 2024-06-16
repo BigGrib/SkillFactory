@@ -4,7 +4,6 @@ from config import keys,TOKEN
 from extensions import ConvertCurrency,ConvertionExeption
 bot = telebot.TeleBot(TOKEN)
 
-
 # Обрабатываются все сообщения, содержащие команды '/start' or '/help'.
 
 @bot.message_handler(commands=['start', 'help'])
